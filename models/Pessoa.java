@@ -6,6 +6,15 @@ public class Pessoa {
     private Endereco endereco;
     private String matricula;
 
+    public Pessoa(String nome, Date dataNascimento, Endereco endereco, String matricula) {
+        this.nome = nome;
+        this.dataNascimento = dataNascimento;
+        this.endereco = endereco;
+        this.matricula = matricula;
+    }
+    
+    public Pessoa() {}
+    
     public String getNome() {
         return nome;
     }
